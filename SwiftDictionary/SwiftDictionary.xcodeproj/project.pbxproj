@@ -12,6 +12,7 @@
 		71B047ED281A5A440052808A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71B047EC281A5A440052808A /* Assets.xcassets */; };
 		71B047F0281A5A440052808A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71B047EF281A5A440052808A /* Preview Assets.xcassets */; };
 		71B047F7281A785F0052808A /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B047F6281A785F0052808A /* SearchBar.swift */; };
+		71B1BBA9281D595500B8F9A2 /* DictView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B1BBA8281D595500B8F9A2 /* DictView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		71B047EC281A5A440052808A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		71B047EF281A5A440052808A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		71B047F6281A785F0052808A /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		71B1BBA8281D595500B8F9A2 /* DictView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				71B047E8281A5A430052808A /* SwiftDictionaryApp.swift */,
 				71B047EA281A5A430052808A /* ContentView.swift */,
 				71B047F6281A785F0052808A /* SearchBar.swift */,
+				71B1BBA8281D595500B8F9A2 /* DictView.swift */,
 				71B047EC281A5A440052808A /* Assets.xcassets */,
 				71B047EE281A5A440052808A /* Preview Content */,
 			);
@@ -142,6 +145,7 @@
 			files = (
 				71B047EB281A5A430052808A /* ContentView.swift in Sources */,
 				71B047E9281A5A430052808A /* SwiftDictionaryApp.swift in Sources */,
+				71B1BBA9281D595500B8F9A2 /* DictView.swift in Sources */,
 				71B047F7281A785F0052808A /* SearchBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
