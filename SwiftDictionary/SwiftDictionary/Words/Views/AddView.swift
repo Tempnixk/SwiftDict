@@ -84,22 +84,10 @@ struct AddView: View {
                 Section {
                     if vm.resultWordDetails != nil && vm.status == .ready {
                         if vm.resultWordDetails!.phonetic != nil {
-                            HStack(spacing: 0) {
                                 Text("**Phonetic:** ").padding(.top)
                                 Text(vm.resultWordDetails!.phonetic ?? "").padding(.top)
                                 Spacer()
-                                Button {
-                                    AudioManager.shared.playback(phonetics: vm.resultWordDetails!.phonetics)
-                                } label: {
-                                    Image(systemName: "speaker.wave.2.fill")
-                                        .font(.title3)
-                                        .padding(.vertical, 5)
-                                        .padding(.horizontal)
-                                        .background(Color.accentColor)
-                                        .cornerRadius(8)
-                                        .foregroundColor(.white)
-                                }
-                            }
+                            
                             .padding(.horizontal)
                         }
                         
@@ -224,19 +212,4 @@ class AudioManager {
     
     private var audioPlayer: AVAudioPlayer?
     
-    func playback(phonetics: [Phonetic]) {
-        guard let phonetic = phonetics.first else { return }
-        guard var stringURL = phonetic.audio else { return }
-        stringURL.insert(contentsOf: "https:", at: stringURL.startIndex)
-        guard let url = URL(string: stringURL) else { return }
-        
-        do {
-            let data = try Data(contentsOf: url)
-            audioPlayer = try AVAudioPlayer(data: data)
-            audioPlayer?.play()
-        }
-        catch {
-            print(error.localizedDescription)
-        }
-    }
 }

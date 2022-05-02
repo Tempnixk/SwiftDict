@@ -27,21 +27,7 @@ struct WordDetailView: View {
         )
         
         List {
-            if wordData.wordElement != nil {
-                Section {
-                    HStack {
-                        Text("[\(wordData.wordElement?.phonetic ?? "No transcription")]")
-                        Spacer()
-                        Button {
-                            AudioManager.shared.playback(phonetics: wordData.wordElement!.phonetics)
-                        } label: {
-                            Image(systemName: "speaker.wave.2.fill")
-                        }
-                    }
-                } header: {
-                    Text("Phonetics")
-                }
-            }
+           
             Section {
                 Text(wordData.partOfSpeech)
                     .contextMenu {

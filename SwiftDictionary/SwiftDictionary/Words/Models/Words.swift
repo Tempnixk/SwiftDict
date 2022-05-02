@@ -11,7 +11,6 @@ import Foundation
 struct WordElement: Codable {
     let word: String
     let phonetic: String?
-    let phonetics: [Phonetic]
     let origin: String?
     let meanings: [Meaning]
 }
@@ -27,11 +26,6 @@ struct Definition: Codable, Hashable {
     let definition: String
     let example: String?
     let synonyms, antonyms: [String]
-}
-
-// MARK: - Phonetic
-struct Phonetic: Codable {
-    let text, audio: String?
 }
 
 typealias Words = [WordElement]

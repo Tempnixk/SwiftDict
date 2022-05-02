@@ -16,6 +16,10 @@ struct MainView: View {
                 .tabItem {
                     Label("Words", systemImage: "textformat.abc")
             }
+            BookmarkView()
+                .tabItem {
+                    Label("Bookmark", systemImage: "star")
+                }
         }
         .navigationViewStyle(StackNavigationViewStyle())
         .sheet(isPresented: $showingOnboarding, onDismiss: {
@@ -24,6 +28,7 @@ struct MainView: View {
             OnboardingView()
         }
     }
+
 }
 
 struct MainView_Previews: PreviewProvider {

@@ -22,6 +22,7 @@
 		71101A56281FD2410076CCFA /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71101A55281FD2410076CCFA /* AddView.swift */; };
 		71101A58281FD24F0076CCFA /* WordCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71101A57281FD24F0076CCFA /* WordCard.swift */; };
 		71101A5A281FD25F0076CCFA /* WordDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71101A59281FD25F0076CCFA /* WordDetailView.swift */; };
+		71101A5C282009410076CCFA /* BookmarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71101A5B282009410076CCFA /* BookmarkView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		71101A55281FD2410076CCFA /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 		71101A57281FD24F0076CCFA /* WordCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordCard.swift; sourceTree = "<group>"; };
 		71101A59281FD25F0076CCFA /* WordDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordDetailView.swift; sourceTree = "<group>"; };
+		71101A5B282009410076CCFA /* BookmarkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,17 +107,17 @@
 			isa = PBXGroup;
 			children = (
 				71101A2C281FCC480076CCFA /* MainView.swift */,
-				71101A45281FD0F20076CCFA /* Onboardingg */,
+				71101A45281FD0F20076CCFA /* Onboarding */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
 		};
-		71101A45281FD0F20076CCFA /* Onboardingg */ = {
+		71101A45281FD0F20076CCFA /* Onboarding */ = {
 			isa = PBXGroup;
 			children = (
 				71101A39281FCFA70076CCFA /* OnboardingView.swift */,
 			);
-			path = Onboardingg;
+			path = Onboarding;
 			sourceTree = "<group>";
 		};
 		71101A48281FD1120076CCFA /* Words */ = {
@@ -152,6 +154,7 @@
 				71101A55281FD2410076CCFA /* AddView.swift */,
 				71101A57281FD24F0076CCFA /* WordCard.swift */,
 				71101A59281FD25F0076CCFA /* WordDetailView.swift */,
+				71101A5B282009410076CCFA /* BookmarkView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -233,6 +236,7 @@
 				71101A2D281FCC480076CCFA /* MainView.swift in Sources */,
 				71101A40281FD06B0076CCFA /* Bundle-Decodable.swift in Sources */,
 				71101A4E281FD1D40076CCFA /* Words.swift in Sources */,
+				71101A5C282009410076CCFA /* BookmarkView.swift in Sources */,
 				71101A3E281FD01D0076CCFA /* CurrentUser.swift in Sources */,
 				71101A50281FD1E10076CCFA /* WordModel.swift in Sources */,
 				71101A58281FD24F0076CCFA /* WordCard.swift in Sources */,

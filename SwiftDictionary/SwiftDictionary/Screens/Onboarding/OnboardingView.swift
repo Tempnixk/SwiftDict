@@ -14,7 +14,7 @@ struct OnboardingView: View {
         ZStack {
             Color("Background").ignoresSafeArea()
             VStack {
-                Text("Welcome to\nMy Dictionary")
+                Text("Welcome to\nSwift Dictionary")
                     .multilineTextAlignment(.center)
                     .font(.system(size: 35, weight: .bold))
                     .padding(.top, 70)
@@ -72,8 +72,7 @@ struct OnboardingView: View {
     
     var onboardingCases = [
         OnboardingCase(icon: "text.justify", title: "Your own list of words", subTitle: "Note any words you want, write your own definitions and examples"),
-        OnboardingCase(icon: "network", title: "Get definitions from the Internet", subTitle: "Some words might mean totally different thing!"),
-        OnboardingCase(icon: "a.magnify", title: "Quizzes", subTitle: "Expand your vocabulary with quizzes from your word list.")
+        OnboardingCase(icon: "star", title: "Si vis pacem...", subTitle: "Programming is such a war. Prepare knowledge for your programming war. "),
     ]
 }
 
